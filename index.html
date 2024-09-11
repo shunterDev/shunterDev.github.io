@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="192x192" href="files/shunterdev.png">
+    <title>ShunterDev</title>
+    <link rel="stylesheet" href="https://oguzki.github.io/font-base/fonts.css">
+</head>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        outline: 0;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        background-color: #1A1A1D;
+        font-family: PixelifySans-Regular;
+    }
+
+    header {
+        color: white;
+        position: fixed;
+    }
+
+    .name {
+        color: white;
+        text-align: center;
+        margin: 0px 5px;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        background-color: #3e3e45;
+        border-radius: 20px;
+        padding: 20px 20px;
+    }
+
+    .subproject {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-logo {
+        width: 50px;
+        height: 50px;
+        margin: 0px 3px;
+        border-radius: 100px;
+    }
+
+    .project-name {
+        margin: 0px 3px;
+    }
+
+    .link {
+        color: pink;
+        text-decoration: none;
+        transition: .5s;
+    }
+
+    .link:hover {
+        color: white;
+    }
+</style>
+
+<body>
+    <header>
+        <p>shunterdev</p>
+    </header>
+    <main>
+        <div class="project">
+            <div class="subproject">
+                <img src="files/shunterdev.png" class="project-logo">
+                <h2 class="project-name">ShunterBot</h2>
+            </div>
+            <p><a href="https://ShunterDev.github.io/tos" class="link">ToS</a></p>
+            <p><a href="https://ShunterDev.github.io/support" class="link">Support</a></p>
+            <p><a href="https://discord.com/oauth2/authorize?client_id=1025833623808659597&permissions=8&integration_type=0&scope=bot"
+                    class="link">Add to server</a></p>
+        </div>
+    </main>
+</body>
+
+</html>
